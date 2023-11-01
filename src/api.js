@@ -1,4 +1,4 @@
-async function fetchPokemonImage(pokemonName) {
+export async function fetchPokemonImage(pokemonName) {
   try {
     const response = await fetch(
       `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
@@ -12,5 +12,3 @@ async function fetchPokemonImage(pokemonName) {
     console.error("Error fetching Pokemon image: ", error);
   }
 }
-
-export { fetchPokemonImage };

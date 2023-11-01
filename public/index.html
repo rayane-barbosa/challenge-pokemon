@@ -16,7 +16,7 @@
                 <label class="instructions" for="pokemon-name">Enter the name and click Evolve:</label>
                 <input class="display" id="pokemon-name" name="display" placeholder="Enter the name here" required autofocus>
             </form>
-            <img id="poke-image" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png" alt="Pokemon Image">
+            <img id="poke-image" src="" alt="Pokemon Image">
 
             <input type="button" id="checkButton" onclick="check()" value="Evolve">
             <input type="button" id="clearButton" onclick="clearScreen()" value="Clear screen">
@@ -26,7 +26,8 @@
         &copy;<a href="https://github.com/rayane-barbosa/challenge-pokemon"> Rayane Barbosa</a>
     </p>
 
-    <script src="../src/app.js"></script>
+    <script type="module" src="../src/app.js"></script>
+    <script src="../src/checkName.js"></script>
     </main>
 </body>
 </html>
