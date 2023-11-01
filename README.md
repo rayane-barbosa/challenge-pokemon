@@ -7,7 +7,7 @@ This repository contains a JavaScript game where the user has to correctly name 
 To run the game, clone the repository and open the `index.html` file in your browser.
 
 ```bash
-git clone https://github.com/your-username/challenge-pokemon.git
+git clone https://github.com/rayane-barbosa/challenge-pokemon.git
 cd challenge-pokemon
 ```
 
