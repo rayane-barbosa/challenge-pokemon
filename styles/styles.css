@@ -1,0 +1,105 @@
+body {
+  background-image: url("https://cdn.wallpapersafari.com/63/56/sbypId.jpg");
+}
+p {
+  text-align: center;
+}
+
+#pokemon-game {
+  background: rgb(255, 31, 31);
+  width: 44.5rem;
+  margin: 2.5rem auto 0 auto;
+  border-radius: 25px;
+}
+
+.instructions {
+  font-size: 2.15rem;
+  margin: 1.5rem 0 1.25rem 2.75rem;
+  color: rgba(15, 14, 14, 0.898);
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  background-color: rgb(220, 220, 220);
+  font-family: "Secular One";
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin: 0 0 0 -1rem;
+  color: rgb(50, 50, 50);
+  width: 43.5rem;
+  border: 0 solid;
+}
+
+.message {
+  font-family: "Secular One";
+  font-size: 2.75rem;
+  margin: 1.5rem 0 1.25rem 2.75rem;
+  color: rgb(220, 220, 220);
+}
+
+.message-two {
+  float: left;
+  font-family: "Secular One";
+  font-size: 2.25rem;
+  margin: 1.25rem 0 1rem 0;
+  color: rgb(102, 204, 255);
+}
+
+#poke-image {
+  float: left;
+  width: 50%;
+  margin: 2rem 2rem 0 1rem;
+}
+
+#checkButton {
+  width: 16rem;
+  height: 4.5rem;
+  margin: 2rem 1rem 1rem 0;
+  font-family: "Secular One";
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 59, 129);
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: center;
+  border: 0 solid;
+  border-radius: 15px;
+  transition: 100ms;
+  display: inline-block;
+}
+
+#clearButton {
+  width: 16rem;
+  height: 4.5rem;
+  margin: 0 1rem 2rem 0;
+  font-family: "Secular One";
+  color: rgb(255, 255, 255);
+  background-color: rgb(54, 59, 129);
+  font-size: 2rem;
+  text-align: center;
+  vertical-align: center;
+  border: 0 solid;
+  border-radius: 15px;
+  transition: 100ms;
+  display: inline-block;
+}
+
+#checkButton:hover,
+#clearButton:hover {
+  background: rgb (153, 255, 153);
+}
+
+#copyright {
+  font-family: "Secular One";
+  font-size: 1.5rem;
+  margin: 1.5rem 0 1.25rem 2.75rem;
+  color: rgb(220, 220, 220);
+  display: flex;
+  justify-content: left;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}

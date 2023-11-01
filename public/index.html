@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Master</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <main>
+      <section id="pokemon-game">
+        <div class="header">       
+            <p class="message">Become a Pokemon Master</p>
+            <form name="screen">
+                <label class="instructions" for="pokemon-name">Enter the name and click Evolve:</label>
+                <input class="display" id="pokemon-name" name="display" placeholder="Enter the name here" required autofocus>
+            </form>
+            <img id="poke-image" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png" alt="Pokemon Image">
+
+            <input type="button" id="checkButton" onclick="check()" value="Evolve">
+            <input type="button" id="clearButton" onclick="clearScreen()" value="Clear screen">
+        </div>
+    </section>
+    <p id="copyright">
+        &copy;<a href="https://github.com/rayane-barbosa/challenge-pokemon"> Rayane Barbosa</a>
+    </p>
+
+    <script src="js/script.js"></script>
+    </main>
+</body>
+</html>
+
+
